@@ -1,9 +1,9 @@
-MOV AL, [2000]   ; Move the byte at memory address 2000 into AL
-MOV BL, [2001]   ; Move the byte at memory address 2001 into BL
-MOV CL, 00       ; Move the value 00 into CL (clear CL)
-ADD AL, BL       ; Add the value in BL to AL and store the result in AL
+MOV AL, [2000]   ; AL <- [2000]
+MOV BL, [2001]   ; BL <- [2002]
+MOV CL, 00       ; CL <- 00
+ADD AL, BL       ; AL <- AL + BL
 JNC 100C         ; Jump to address 100C if there's no carry (JNC means Jump if No Carry)
-INC CL           ; Increment the value in CL by 1
-MOV [2002], AL   ; Move the value in AL to memory address 2002
-MOV [2003], CL   ; Move the value in CL to memory address 2003
+INC CL           ; CL <- CL + 01
+MOV [2002], AL   ; [2002] <- AL
+MOV [2003], CL   ; [2003] <- CL
 HLT              ; Halt the program
