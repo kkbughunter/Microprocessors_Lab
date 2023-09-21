@@ -26,7 +26,7 @@ L1: 	MOV SI, 2000
 L2:	MOV AL, [S1]
 	CMP AL,[SI]
 
-	JC LABEL	// label-1018
+	JNC LABEL	// label-1018
 	XCHG AL,[SI+1]	
 	XCHG AL,[SI]
 	
