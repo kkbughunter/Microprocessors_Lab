@@ -1,0 +1,9 @@
+MOV CX,[1500]
+MOV SI,[1502]
+MOV DI,[1504]
+MOV BL,[SI]	; label
+MOV [DI],BL
+INC SI
+INC DI
+LOOP label
+HLT
