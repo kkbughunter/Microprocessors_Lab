@@ -5,7 +5,7 @@ DATA SEGMENT
 DATA ENDS
 CODE SEGMENT
 	org 0100h
-START
+START:
 	mov ax,DATA
 	mov ds,ax
 
