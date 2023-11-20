@@ -1,0 +1,12 @@
+; To generate square-wave at the output of DAC 2.
+
+MOV AL,00		; START
+OUT C8,AL
+CALL CHANGE
+MOV AL,FF
+OUT C8,AL
+CALL CHANGE
+JMP START
+MOV CX,05FF 	; CHANGE
+LOOP SELF		; SELF
+RET
