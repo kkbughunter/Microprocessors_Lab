@@ -1,0 +1,13 @@
+; To generate triangular waveform at DAC 2 output.
+
+MOV BL,00 	; START
+MOV AL,BL	; CHANGE1
+OUT C8,AL
+INC BL
+JNZ CHANGE1
+MOV BL,FF
+MOV AL,BL	; CHANGE2
+OUT C8,AL
+DEC BL
+JNZ CHANGE2
+JMP START
