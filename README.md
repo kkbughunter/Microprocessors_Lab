@@ -38,6 +38,7 @@
 18. Assignment 18 [Cube of a number using 8051](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-18)
 19. Assignment 19 [BCD to ASCII conversion using 8051](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-19)
 
-
+## Exam Sample Questions
+[Old Question](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Exam)
 
 # Thank You...
