@@ -1,0 +1,20 @@
+; BCD to ASCII Conversion
+
+MOV DPTR, #BCD_DATA     
+MOV R0, #0  
+
+CONVERT_LOOP:
+    MOVX A, @DPTR   
+    MOV B, A  
+
+    ANL A, #0FH 
+    ADD A, #'0'   
+    MOV @DPTR, A 
+    INC DPTR       
+    INC R0        
+
+    CJNE R0, #NUM_DIGITS, CONVERT_LOOP 
+END_OF_CONVERSION:
+    SJMP END_OF_CONVERSION 
+BCD_DATA: DB 0x12, 0x34, 0x56, 0x78 
+NUM_DIGITS equ $ - BCD_DATA  
