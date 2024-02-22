@@ -18,9 +18,23 @@
 <br>
 
 **MASM Program**
-
 8. Assignment 08 [Case Conversion](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-08)
+9. Assignment 09 [Floating point operations](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-09)
+10. Assignment 10 [Display a string](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-10)
+11. Assignment 11 [System date and time](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-11)
+
+**Interfacing Experiments**
+12. Assignment 12 [Parallel Interface](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-12)
+13. Assignment 13 [Traffic Light Controller](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-13)
+14. Assignment 14 [Keyboard and Display Interface](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-14)
+15. Assignment 15 [Wave Generation using DAC](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-15)
+16. Assignment 16 [Stepper Motor Interfacing](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-16)
+
+**8051 Micro Processor ASM program**
+17. Assignment 18 [8-bit arithmetic operations using 8051](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-17)
+18. Assignment 18 [Cube of a number using 8051](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-18)
+19. Assignment 19 [BCD to ASCII conversion using 8051](https://github.com/KKBUGHUNTER/Microprocessors_Lab/tree/main/Assignment-19)
 
 
 
-
+# Thank You...
